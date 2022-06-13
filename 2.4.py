@@ -1,5 +1,6 @@
-a = [1,2]*3
-print(a)
-
-l = list[1,2,3]
-print(l)
+mystring  = input("enter string ")
+l = mystring.split( )
+n = 1
+for i in l:
+    print(n, i[:10])
+    n+=1
